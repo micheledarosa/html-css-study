@@ -1,0 +1,73 @@
+body {
+    position: relative;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Verdana;
+    max-width: 59rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-avatar {
+    width: 10rem;
+    border: 2px solid pink;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+#title, .subtitle, .post-title {
+    color: #FC85AE;
+}
+
+#title {
+    font-size: 30px;
+}
+
+a {
+    color: #FD367E;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: pink;
+}
+
+.post-title {
+    font-size: 1rem;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px; 
+}
+
+.post {
+    background: #fff;
+    padding: 15px;
+    border: 3px solid pink;
+    border-radius: 14px;
+    margin-bottom: 15px;
+}
+
+.post-content {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.img-post {
+    border-radius: 8px;
+    margin-bottom: 15px;
+    width: 60%;
+}
+
+.contacts-list {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.contacts-list li a {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+}
